@@ -1,0 +1,110 @@
+/* Background with gradient */
+body {
+  background: linear-gradient(135deg, #4a90e2, #8e44ad);
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+/* Card container */
+.card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+}
+
+/* Title */
+.title {
+  font-size: 24px;
+  color: #8e44ad;
+  margin-bottom: 10px;
+}
+
+/* Form styling */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input-field {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Buttons */
+.add-button {
+  background: #4a90e2;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.add-button:hover {
+  background: #357abd;
+}
+
+.delete-button {
+  background: #e74c3c;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.delete-button:hover {
+  background: #c0392b;
+}
+
+/* Exam list */
+.exam-list {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.sub-title {
+  font-size: 18px;
+  color: #8e44ad;
+  margin-bottom: 10px;
+}
+
+.no-exams {
+  color: #777;
+  font-size: 14px;
+}
+
+.exam-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f9f9f9;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.exam-subject {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+.exam-details {
+  font-size: 14px;
+  color: #777;
+}
